@@ -67,3 +67,11 @@ body {
     max-width: 480px;
     margin: auto;
 }
+
+.progress {
+    margin-bottom: 0px;
+}
+
+.status {
+    margin-bottom: 15px;
+}
