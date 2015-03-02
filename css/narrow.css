@@ -6,6 +6,7 @@ body {
 
 body {
     font-size: 160%;
+    background-image:url(../imgs/white_wall_hash.png);
 }
 
 h1, h2, h3, h4 {
@@ -26,7 +27,7 @@ h1, h2, h3, h4 {
 .footer {
     padding-top: 5px;
     color: #777;
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #d5d5d5;
 }
 
 /* Customize container */
@@ -70,6 +71,10 @@ h1, h2, h3, h4 {
     padding-bottom: 20px;
     max-width: 480px;
     margin: auto;
+}
+
+.progress {
+    background: rgba(225, 225, 225, 1);
 }
 
 .progress {
