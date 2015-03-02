@@ -8,6 +8,10 @@ body {
     font-size: 160%;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif; font-weight: 400;
+}
+
 /* Custom page header */
 .header {
     text-align: center;
