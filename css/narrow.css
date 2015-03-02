@@ -1,0 +1,69 @@
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    font-size: 160%;
+}
+
+/* Custom page header */
+.header {
+    text-align: center;
+}
+
+/* Space out the masthead */
+.header {
+    margin-bottom: 30px;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 5px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 20px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+.video {
+    max-width: 560px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.intro {
+    padding-top: 5px;
+}
+
+.lastbutton {
+    padding-top: 20px;
+}
+
+.btn {
+    white-space:normal !important;
+    word-wrap:break-word; 
+}
+
+.pledge {
+    padding-bottom: 20px;
+    max-width: 480px;
+    margin: auto;
+}

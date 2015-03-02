@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="imgs/favicon.png">
+
+        <title>Bitcoin Box Crowdfunding</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/narrow.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Bitcoin Box Crowdfunding</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="video">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/P7vKHMoapr8" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <p class="intro">
+                    <strong>Raising 32 BTC / 8000 USD to finish the "Bitcoin Box"</strong>,
+                    a point of sale terminal based on a Raspberry Pi. It supports NFC and offline
+                    payments, but also displays QR codes as a fallback. The funds will be used to
+                    complete the software and release it as open source, provide build instructions
+                    for the box and engage in standardization work where necessary.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row marketing">
+                <div class="col-lg-10 col-lg-offset-1">
+                </div>
+
+                <div class="col-lg-12 text-center">
+                    <div class="pledge">
+                        <div class="progress">
+                          <div class="progress-bar progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            19.2 BTC / 4416 USD pledged by 12 backers
+                          </div>
+                        </div>
+
+                        <p>
+                            <a class="btn btn-lg btn-success" href="#todo" role="button">
+                            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                            Download Lighthouse project and pledge</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <h4>What is the Bitcoin Box?</h4>
+
+                    <p>
+                    The above video shows the current state of the Bitcoin Box. It is a standalone
+                    Bitcoin point of sale terminal, which is build around NFC to provide contactless
+                    payments, but also displays QR codes as a fallback. It increases reliability of
+                    in-person payments, by allowing wallets to send payment via Bluetooth. As a
+                    result, wallets can even be completely offline and still be able to complete a
+                    transaction. The box makes use of BitPay's service to provide merchants with
+                    payout in various currencies, including bitcoin.
+                    </p>
+
+                    <h4>What will the funds be used for?</h4>
+
+                    <ul>
+                        <li>
+                        Finishing the software that makes the Bitcoin Box tick, getting it to
+                        a production ready state in terms of reliability and robustness and
+                        releasing it under an open source license.
+                        </li>
+                        <li>
+                        Instructions, including a list of components, on how to build a Bitcoin Box.
+                        </li>
+                        <li>
+                        Standardization work: Coordinating with the Bitcoin developer
+                        community to agree on and document the technical standards used by the
+                        Bitcoin box. TBIP74 and TBIP75 are two proposals that are already
+                        underway in this area (see
+                        <a href="https://www.mail-archive.com/bitcoin-development@lists.sourceforge.net/msg07144.html">this thread</a>
+                        for the current state of the discussion).
+                        </li>
+                    </ul>
+
+                    <h4>Who is doing the work?</h4>
+
+                    <p>
+                    My name is <a href="https://de.linkedin.com/pub/jan-vornberger/75/a90/29b">Jan Vornberger</a>,
+                    I have been interested in Bitcoin point of sale solutions since 2011, when I released one of
+                    the <a href="https://github.com/javgh/greenaddress-pos-tools">first prototypes</a> in that
+                    area as open source. I was the founder of Instawallet and
+                    <a href="https://www.bridgewalkerapp.com/">Bridgewalker</a>
+                    (precursor to Bitreserve/Coinlock), coined the term 'green address' and do
+                    Android development for <a href="https://hivewallet.com/">Hive</a>. I believe,
+                    that I bring the necessary skills and connections within the
+                    Bitcoin community to the table, to succesfully complete this
+                    project.
+                    </p>
+
+                    <h4>Why is it needed?</h4>
+
+                    <p>
+                    Most Bitcoin point of sale solutions are software-only, usually targeting
+                    Android devices. This makes sense in many situations, as Android phones are
+                    cheap and ubiquitous. But it also tends to drift towards a lowest common
+                    denominator situation, which often means QR codes of a Bitcoin address and
+                    listening for unreliable broadcasts on the Bitcoin network. NFC especially is a
+                    weak point, as those devices either do not have it or the antenna is in some
+                    inconvenient place for a checkout situation. All this often ultimately results
+                    in the impression that Bitcoin is a clunky way to pay in person.
+                    </p>
+
+                    <p>
+                    I feel it is therefore necessary to have a "reference system" of sorts, which
+                    implements all best practices, all the latest standards and invents them where
+                    they are still missing. Then puts it all together in a showcase of how fast,
+                    reliable and convenient a Bitcoin payment can be.
+                    </p>
+
+                    <p>
+                    On top of that, one additional important advantge of the Raspberry Pi is, that
+                    it has an Ethernet port, which will make it possible to connect it to cash
+                    registers. This kind of integration will not be part of this crowdfunding round,
+                    but it would be the next logical step.
+                    </p>
+
+                    <h4>What is Lighthouse?</h4>
+
+                    <p>
+                    Lighthouse is a new approach to all-or-nothing fund raising directly on the
+                    blockchain. Using advanced features of the Bitcoin protocol, it is now possible
+                    to create Kickstarter-style fund raising initiatives without the need for a
+                    middleman. Instead, the Lighthouse software allows you to create special Bitcoin
+                    transactions, which are only valid if enough other people also contribute.
+                    </p>
+
+                    <p>
+                    In that way, you remain in full control over your funds, up until the moment the
+                    project is fully funded. Until that point is reached, pledges can be undone at
+                    any time without the involvement of the project creator.
+                    </p>
+
+                    <h4>How to pledge using Lighthouse?</h4>
+
+                    <p>
+                    Unlike other crowdfunding platforms, Lighthouse is not a company, website or
+                    service. It is an open source desktop app you can download and run. You are
+                    always in control of your own money and fundraisers.
+                    </p>
+
+                    <p>Follow these steps to pledge via Lighthouse:</p>
+
+                    <ol>
+                        <li>
+                        <a href="https://www.vinumeris.com/lighthouse">Download the Lighthouse app</a>
+                        and run it on your computer. It might ask you to restart at least once, and
+                        you'll need to wait until the "Synchronizing" progress bar disappears.
+                        </li>
+                        <li>
+                        Download the <a href="#todo">Bitcoin Box Lighthouse project file</a> and
+                        double-click it or drag it into the Lighthouse window or onto the Lighthouse
+                        icon. You should then see the project displayed inside Lighthouse.
+                        </li>
+                        <li>
+                        To make a pledge, you need to transfer the funds to Lighthouse's internal
+                        wallet first. Send the amount you want to contribute to the address you see in
+                        the top-left corner of the window - click one of the icons next to it to copy
+                        the address or show a QR code. (Note: Due to current limitations of Lighthouse
+                        and the Bitcoin blockchain, you can't pledge an amount smaller than about 47
+                        mBTC / 12 USD to this project.)
+                        </li>
+                        <li>
+                        Wait for the bitcoins to arrive in the Lighthouse wallet - this shouldn't
+                        normally take more than a few seconds. Then, with the Bitcoin Box project
+                        selected, click the "Pledge" button on the right.
+                        </li>
+                        <li>
+                        Click "Maximum amount possible", or enter an amount manually. If you want to
+                        be listed as a crowdfunding backer on the website, enter a name (note: this will
+                        be visible for everyone on the project page) or an email address (which is
+                        private). You can also enter an optional message (also public). When you're
+                        ready, click "Confirm".
+                        </li>
+                    </ol>
+
+                    The crowdfunding round will run until April 10, 2015. If the goal should not be
+                    reached by then, feel free to withdraw your pledge. Thank you for your contribution!
+                </div>
+
+                <div class="col-lg-12 text-center lastbutton">
+                    <p>
+                        <a class="btn btn-lg btn-success" href="#todo" role="button">
+                        <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                        Download Lighthouse project and pledge</a>
+                    </p>
+                </div>
+            </div>
+
+            <footer class="footer">
+            <p>&copy;2015 <a href="mailto:jan@uos.de">Jan Vornberger</a></p>
+            </footer>
+
+        </div> <!-- /container -->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+</html>
