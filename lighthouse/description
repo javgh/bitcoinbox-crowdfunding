@@ -10,7 +10,7 @@ I hope I can get your support to finish the first step of this vision: Build tha
 
 #### Why is it needed? ####
 
-Most Bitcoin point of sale solutions are software-only, usually targeting Android devices. This makes sense in many situations, as Android phones are cheap and ubiquitous. But having to support a mix of devices, makes it hard to really optimize the process. In many cases the state of the art still is displaying QR codes of Bitcoin addresses and listening for unreliable broadcasts on the Bitcoin network. NFC especially is a weak point, as low-end devices either do not have it or the antenna is inconveniently located for a checkout situation. All this often ultimately results in the impression that Bitcoin is a clunky way to pay in person.
+Most Bitcoin point of sale solutions are software-only, usually targeting Android devices. This makes sense in many situations, as Android phones are cheap and ubiquitous. But having to support a mix of devices makes it hard to really optimize the process. In many cases the state of the art still is displaying QR codes of Bitcoin addresses and listening for unreliable broadcasts on the Bitcoin network. NFC is an especially weak point, as low-end devices either do not have it or the antenna is inconveniently located for a checkout situation. All this often ultimately results in the impression that Bitcoin is a clunky way to pay in person.
 
 I feel it would therefore be beneficial to have a "reference system" of sorts, which implements all best practices, all the latest standards and invents them where they are still missing. The aim is to showcase how fast, reliable and convenient a Bitcoin payment can be.
 
@@ -22,7 +22,7 @@ The video above shows the current state of the Bitcoin Box. It is a standalone B
 
 #### Who is doing the work? ####
 
-My name is [Jan Vornberger](https://de.linkedin.com/pub/jan-vornberger/75/a90/29b), I have been interested in Bitcoin point of sale solutions since 2011, when I released one of the [first prototypes](https://github.com/javgh/greenaddress-pos-tools) in that area as open source. I was the founder of Instawallet and [Bridgewalker](https://www.bridgewalkerapp.com/) (precursor to Bitreserve/Coinlock), coined the term 'green address' and do Android development for [Hive](https://hivewallet.com/). I believe that I bring the necessary skills and connections within the Bitcoin community to the table, to successfully complete this project.
+My name is [Jan Vornberger](https://de.linkedin.com/pub/jan-vornberger/75/a90/29b), I have been interested in Bitcoin point of sale solutions since 2011, when I released one of the [first prototypes](https://github.com/javgh/greenaddress-pos-tools) in that area as open source. I was the founder of Instawallet and [Bridgewalker](https://www.bridgewalkerapp.com/) (precursor to Bitreserve/Coinlock), coined the term 'green address' and do Android development for [Hive](https://hivewallet.com/). I believe that I bring the necessary skills and connections within the Bitcoin community to the table to successfully complete this project.
 
 #### What will the funds be used for? ####
 
