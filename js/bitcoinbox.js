@@ -1,5 +1,5 @@
 var FIREBASE_URL = 'https://bitcoinbox.firebaseio.com/';
-var EXCHANGE_RATE = 265;
+var EXCHANGE_RATE = 295;
 
 $(document).ready(function () {
     var db = new Firebase(FIREBASE_URL);
